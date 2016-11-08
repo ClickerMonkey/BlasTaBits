@@ -21,3 +21,5 @@ Java 8 is required to run this game, you can find a download of the JRE here: ht
 - This is only playable if you have a server running, there is no offline mode currently
 - If you want to create maps, send me an email at admin@magnos.org and I can send it to you
 - Why is the cursor red sometimes?!?! When the path from the muzzle of your weapon to the target you're aiming at is blocked by... a block.. the cursor will be red.
+
+![Castle](Castle.png)
