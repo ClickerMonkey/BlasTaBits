@@ -1,8 +1,54 @@
+# Gameplay
+
 This document contains the direction for the gameplay - there will be tags to note `future` features.
 
+- [Overview](#overview)
 - [Weapons](#weapons)
 - [Abilities](#abilities)
 - [Perks](#perks)
+
+## Overview
+
+The game type defines "points". These points can be # of kills, time accumulated, # of flags captured, etc. You play until the match is resolved. The game type can define initial weapons, weapon restrictions, as well as weapon spawns & ammo. Every game type can have unique respawn options and game modes.
+
+Team Arrangements:
+- Free-for-all
+- Team based
+
+Match Resolutions:
+- Time based (ranked by points)
+- Point limit reached
+
+Weapon Selections:
+- User's default.
+- The user must select N number of weapons or has X number of points.
+- User can only build their profiles based on certain weapons/ability/perks.
+- The user starts with a fixed weapon.
+- The user starts with a fixed weapon and as they get to certain points they are given a new weapon.
+- Weapons/ammo could spawn and be picked up to replace the current weapon (there could be a max which restricts too many large weapons).
+
+Respawn Options:
+- Random location
+- Random location from points/areas
+- Waits until a point changes (kills, captures, etc)
+- Waits until X seconds elapses
+- Allow user to select from predefined points/areas
+- Switch sides?
+
+Game Modes:
+- Normal
+- Capture the flag
+- Defend a base
+  - The base could be a fixed location OR could move after each defense. 
+  - There could be a "capture" limit on the base (either you get points, it relocates, or you get "possession" which may give you additional points)
+- 
+
+With these options you should be able to derive the following game modes:
+- Deathmatch
+- Team Deathmatch
+- Retrieval (Two teams, one defends bases the other needs to capture. Once captured, the bases can relocate. After X captures or time amount reached, switch sides)
+- Capture the Flag (Take players flag and bring it back to your base. If you're killed, the flag must be picked up by the opposing team to be returned (either manually or automatically) or it's teleported back).
+- 
 
 ## Weapons
 
