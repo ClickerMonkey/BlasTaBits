@@ -5,6 +5,7 @@ This document contains the direction for the gameplay - there will be tags to no
 - [Overview](#overview)
 - [Weapons](#weapons)
 - [Abilities](#abilities)
+- [Killstreacks](#killstreaks)
 - [Perks](#perks)
 
 ## Overview
@@ -38,29 +39,41 @@ Respawn Options:
 Game Modes:
 - Normal
 - Capture the flag
-- Defend a base
-  - The base could be a fixed location OR could move after each defense. 
-  - There could be a "capture" limit on the base (either you get points, it relocates, or you get "possession" which may give you additional points)
-- 
+- Defend/Capture a base
+  - The base could be a fixed location OR could move after each capture. 
+  - After a capture (if applicable)
+    - You may rewarded with points
+    - It may relocate
+    - The game may reset
+    - You get "possession"
 
 With these options you should be able to derive the following game modes:
 - Deathmatch
 - Team Deathmatch
 - Retrieval (Two teams, one defends bases the other needs to capture. Once captured, the bases can relocate. After X captures or time amount reached, switch sides)
 - Capture the Flag (Take players flag and bring it back to your base. If you're killed, the flag must be picked up by the opposing team to be returned (either manually or automatically) or it's teleported back).
-- 
+- Headquarters (Capture base and kill the other players to gain points. Reach a certain number of points to win).
+- Domination (Capture bases and keep them as long as possible)
+- War (Domination & Deathmatch together)
+- Sabotage (Bomb spawned in center of map. You must carry it to another persons base and "plant" it to win)
+- Cage Match (1 on 1 deathmatch)
+- Hunter/Prey (Keep "flag" as long as possible)
 
 ## Weapons
 
 ### Guns
 - Pistol
-  - A short range weapon with high rate of fire.
+  - A short range weapon with high rate of fire and medium accurracy.
 - Rifle
-  - A long range weapon with medium rate of fire.
+  - A long range weapon with medium rate of fire and medium accurracy.
+- Sniper `future`
+  - A long range weapon with slow rate of fire, high damage, and high accurracy.
+- Machine Gun `future`
+  - An automatic medium range weapon with high rate of fire and low accuracy.
 - Rocket Launcher
-  - Launches a rocket propelled timed & touch sensitive.
+  - Launches a rocket propelled timed & touch sensitive with low rate of fire and high accurracy.
 - Replicator `future`
-  - Copies & Shoots Blocks
+  - Copies & Shoots Blocks with medium rate of fire and high accurracy.
   
 ### Magic
 - Spawner (wall, pillar, bunker, steps) `future`
@@ -88,7 +101,11 @@ With these options you should be able to derive the following game modes:
 - Pressure Mine
   - An explosive triggered by touch.
 
-### Mines & Stick Grenade
+### Defensive
+- Shield `future`
+  - Takes damage, can be destroyed
+
+#### Mines & Stick Grenade
 
 If the surface it's stuck to is removed, the projectile will fall to the ground.
 
@@ -104,9 +121,50 @@ If the surface it's stuck to is removed, the projectile will fall to the ground.
   - Quickly move through water.
 - Teleportation `future`
   - Choose a block to teleport to the top of. Restricted by distance and either use count or "recharge" time.
+- Sprinting `future`
+  - Charge based running
+
+## Killstreaks
+
+- Radar `future`
+- Air Strike/Artillery `future`
+- Sentry Gun `future`
+  - A machine gun (or other weapon) that points in given direction and shoots enemies.
+- Spawn Defensive Tower `future`
+- Care Package `future`
+  - Ammo/Weapon drop that falls after user throws smoke grenade
+- Predator Missile `future`
+  - Guides a missile
+- EMP `future`
+  - Disables certain perks/weapons, removes killstreaks in surrounding area
 
 ## Perks
 
-- Sentry Gun `future`
-  - 
-- Spawn Defensive Tower `future`
+- Armour `future`
+  - Increased health
+- Heavy Armor `future`
+  - Greatly increased health, speed decrease
+- Quickfinger `future`
+  - Higher rate of fire for semi-automatics
+- Penetration `future`
+  - Bullets are more powerful and can penetrate blocks
+- Bandolier `future`
+  - Double Weapon Ammo
+- Extra Pockets `future`
+  - Double Grenade Ammo
+- Extreme Conditioning `future`
+  - You can sprint longer
+- Martyrdom `future`
+  - Drop a live grenade when you die
+- Kamikaze `future`
+  - You explode when you die
+- Bang Bang `future`
+  - Your explosions are larger
+- Thick Wrist `future`
+  - Reduced recoil
+- Protections `future`
+  - X second invincibility after respawn
+- Sleight of Hand `future`
+  - X faster reload
+- Hobbit `future`
+  - Walking is not heard and doesn't appear on radar
