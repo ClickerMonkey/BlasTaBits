@@ -4,6 +4,7 @@ BlasTaBits is an online first person shooter set in a colorful and playfully des
 - [Controls](Controls.md)
 - [Gameplay](Gameplay.md)
 - [Issues](Issues.md)
+- [Todos](Todos.md)
 
 ## Download
 
