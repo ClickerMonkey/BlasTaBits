@@ -5,7 +5,7 @@ This document contains the direction for the gameplay - there will be tags to no
 - [Overview](#overview)
 - [Weapons](#weapons)
 - [Abilities](#abilities)
-- [Killstreacks](#killstreaks)
+- [Killstreaks](#killstreaks)
 - [Perks](#perks)
 
 ## Overview
